@@ -523,6 +523,10 @@ body.loading #loading-screen {
     .container-banner input {
         padding: 1rem 1rem;
     }
+
+    .container-email img{
+        display: none;
+    }
   }
 
 
