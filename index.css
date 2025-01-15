@@ -58,7 +58,7 @@
     color: var(--secondary-color);
  }
 
- .container-banner input{
+ .container-banner button {
     margin-top: 2rem;
     border: none;
     background-color: var(--primary-color);
@@ -212,7 +212,6 @@
 
 .section-contacts{
     display: flex;
-    
     padding: 8rem;
     justify-content: center;
     gap: 5rem;
@@ -469,6 +468,10 @@ body.loading #loading-screen {
     .container-services-text{
         flex-wrap: wrap;
     }
+
+    .emails{
+        width: 60%; 
+    }
   }
 
   @media (max-width: 1236px) {
@@ -520,12 +523,8 @@ body.loading #loading-screen {
         font-size: 2rem;
     }
 
-    .container-banner input {
+    .container-banner button {
         padding: 1rem 1rem;
-    }
-
-    .container-email img{
-        display: none;
     }
   }
 
@@ -547,5 +546,35 @@ body.loading #loading-screen {
 
     .services-text input{
         font-size: 1.5rem;
+    }
+
+    .container-services-text{
+        padding-inline: 2rem;
+    }
+
+    .section-reviews{
+        padding-inline: 1rem;
+    }
+
+    .container-contacts h2{
+        font-size: 3rem;
+    }
+
+    .container-contacts p{
+        font-size: 1rem;
+    }
+    
+    .services input {
+        position: relative;
+    }
+
+    .container-banner button {
+        position: relative;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .emails{
+        width: 100%; 
     }
   }
